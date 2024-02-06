@@ -1,0 +1,108 @@
+/* * {
+    cursor: none;
+} */
+
+body {
+    background-image: url('src/img/orange-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.center {
+  text-align: center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:10px;
+    padding: 10px;
+}
+
+button {
+    position:relative;
+    z-index: 100;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+}
+
+#box1 {
+    position: absolute;
+    z-index: 6;
+}
+
+#box2 {
+    position: absolute;
+    z-index: 4;
+}
+
+#cat1 {
+    position: absolute;
+    z-index: 5;
+
+    /* Out of view */
+    left: 170px;
+    top: 145px;
+}
+
+#cat2 {
+    position: absolute;
+    z-index: 3;
+
+    /* Out of view */
+    left: -155px;
+}
+
+#cat3 {
+    position: absolute;
+    z-index: 2;
+
+    /* Out of view */
+    left: 230px;
+}
+
+#cat4 {
+    position: absolute;
+    z-index: 1;
+
+    /* Out of view */
+    top: -295px;
+}
+
+#mouse {
+    position: absolute;
+    z-index: 10;
+    width: 200px;
+}
+
+#churu {
+    position: absolute;
+    z-index: 10;
+    width: 250px;
+    transform: rotate(45deg);
+}
+
+#spoon {
+    position: absolute;
+    z-index: 10;
+    width: 150px;
+    transform: rotate(-45deg);
+}
+
+#roach {
+    position: absolute;
+    z-index: 10;
+    width: 200px;
+}
